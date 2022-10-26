@@ -1,5 +1,5 @@
 variable project_name { 
-    default = "terraedit-365302"
+    default = "terraedit-365722"
 }
 
 variable region { 
@@ -23,11 +23,11 @@ variable machine_type{
 }
 
 variable ssh_user{ 
-    default =  "adrabenche"
+    default =  "kofsqen"
 }
 
 variable ssh_key{ 
-    default =  "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQDOacxL1ivydoFWU/YGTCbA6+KqoTbofRlNFjGM1KHRyUwCytXI+7v61tcnjWucyWwia8dDzjHCJXVBedzdedKXBposO0vJSnkeC2+8wScVkT8S7cOM/4W9eF4ImlzXJQKUTW3U9ZjY2wWGZzt2v/oXiDIa+C1xmaJDsP6TLJJzBvq9Jw8Te7FK2uL/BoAgQ0aiZohiXOi0S7rQKvRLYjP0ccLRDSBtwm92rAXptQp/Y7cFF+c9fZ87ARtgAOrjBtRSre/2ZDctK8vJLc1tlWJni3QXpPwplbeFxQGz45VeaJnrDDXMRZlQIGOeWEUn+1kR69semqcAq8N6PuDYwGVU7VaBgFGr5HojoXulFyDhndsWfGst2ua3C6teFCyyXBj8OKacLEiYo/kKoBgFhx1s9Rg+x9y3wzzqdmzN2YMsW+MEQxfGxkCyQ9tb1ZT2HlADoo9Jal4SymDi6YlJ4HYcAtYzyuKgUZ7KCTYC3HZ70ganDPjYRPKiU+NxR6gnjaP+LrZX3M44Dbm/pP+klr6hucUo0v2YdoNsrBrcS8Xef2cDR/wXFoCA+/rbpQ0lEdmM4YVxvQsQgAW0mZpjMtt+R1Ut3/zduXwZxIofS10eCVEeJBicCGfvLBvDkA+NmmM1btSby66DGYYb3GhOguokdJtECFAt96IhBggvhbXF2Q=="
+    default =  "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDEaImUkyPsUaqRsqcB4caHE1+u6uvvk5QMALc/JkWBIAHK7Bi+n8Mvrt/Z75zckKCSQ9JWIHR6Vs40x0wgGaMqqjBAFHJqxFDOqT1XN2dSCnKQgaRZs1hTVKyVv0CyPKSUKH9q7jylMAdRzfSkeiJ+QHCtSUNG2KJy89rnE4T8yHlO8HIGUYHiUrwHfCLfHTIRSSnl6BCPD1fM6Ww3e7uEU3/g/cNtuw/iRwj07BSj5g6/ngtlBqq9XRS7sidP7u8XlC3jvXJ7N/tfiKPmFXIsj3CrVC/ZePnQ7k6p3Y1rEGu6kho7bHkB/2h/p/WR87FpeFh0rtKSnHCLnVExMhSTzIWpD0HpuR5Lmo+Z04pwJrtxafzMYEih5le8usnhhGpS06AlC1wYpnSJOdsbc5fG+WEFQ61uC6mrOd9Muk02hOi7t6rRZNqZiO2hL+uyCt9s2Hq8kttZAKv7JwKzeS5z+2+WvjY+FQIC+yRBGahRHnOA1/P2QXNGSMkrXtesVP0= Uriel@DESKTOP-1O1PMMJ"
 }
 
 variable firewall_rules {
