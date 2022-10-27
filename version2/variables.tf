@@ -11,7 +11,7 @@ variable zone {
 }
 
 variable vpc_network { 
-    default = "terraform-network"
+    default = "terra-network"
 }
 
 variable vm_instance_name { 
