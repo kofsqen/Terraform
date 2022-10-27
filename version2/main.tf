@@ -18,9 +18,9 @@ resource "google_compute_firewall" "default" {
   depends_on = [ google_compute_network.vpc_network ]
 }
 
-#resource "google_compute_network" "vpc_network" {
- #   name = var.vpc_network
-#}
+resource "google_compute_network" "vpc_network" {
+    name = var.vpc_network
+}
 
 resource "google_compute_instance" "vm_instance" {
     name = var.vm_instance_name
