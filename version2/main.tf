@@ -41,6 +41,6 @@ resource "google_compute_instance" "vm_instance" {
     ]
 
     metadata = {
-        sshKeys = "${var.ssh_user}:${var.ssh_key}"
+        sshKeys = "${var.ssh_user2}:${var.ssh_key2}"
     }
 }
